@@ -9,7 +9,7 @@ import store from "./store";
 Vue.use(VueRouter);
 
 export const router = new VueRouter({
-  mode: "hash",
+  mode: "history",
   routes: [
     {
       path: "/",
