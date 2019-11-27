@@ -1,5 +1,5 @@
 # images
-
+An Vue application that allow user can see their images and upload more images to imgur by using imgur API.
 ## Project setup
 ```
 npm install
