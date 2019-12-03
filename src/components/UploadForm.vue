@@ -9,12 +9,12 @@
 </template>
 
 <script>
-import { mapActions, mapGetters } from "vuex";
+import { mapActions, mapGetters } from 'vuex';
 
 export default {
-  name: "UploadForm",
+  name: 'UploadForm',
   computed: mapGetters(['isLoggedIn']),
-  methods: mapActions(["uploadImages"])
+  methods: mapActions(['uploadImages'])
 };
 </script>
 
